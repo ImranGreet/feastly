@@ -1,12 +1,3 @@
-import type { Ref } from "vue";
+import type { ButtonProps, ModalComposable } from './propsType';
 
-interface ModalComposable {
-  showModal: Ref<boolean>;
-  modalType: Ref<string>;
-  toggleModal: () => void;
-  setModalType: (type: string) => void;
-}
-
-export type {
-    ModalComposable
-}
+export type { ModalComposable, ButtonProps };
