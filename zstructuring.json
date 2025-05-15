@@ -1,7 +1,7 @@
 {
-    "way":"composables",
-    "formkit":"form-building",
-    "styling":"tailwindcss",
-    "scripts":"in nested folder to responsible for their scripts",
-    "pinia":"for stroe"
+  "way": "composables",
+  "formkit": "form-building",
+  "styling": "tailwindcss",
+  "scripts": "in nested folder to responsible for their scripts",
+  "pinia": "for store"
 }

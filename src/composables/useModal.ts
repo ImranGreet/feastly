@@ -1,9 +1,9 @@
-import { ref } from "vue";
-import type { ModalComposable } from "../types/types";
+import { ref } from 'vue';
+import type { ModalComposable } from '../types/types';
 
 export default function useModal(): ModalComposable {
   const showModal = ref<boolean>(false);
-  const modalType = ref<string>("default");
+  const modalType = ref<string>('default');
 
   const toggleModal = () => {
     showModal.value = !showModal.value;
