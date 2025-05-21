@@ -1,4 +1,4 @@
-<script></script>
+<script lang="ts" setup></script>
 
 <template>
   <div class="max-w-7xl mx-auto my-5">
@@ -18,5 +18,3 @@
     </ul>
   </div>
 </template>
-
-<style></style>

@@ -4,14 +4,14 @@ import {
   type Router,
   type RouteRecordRaw,
 } from 'vue-router';
-import Authlayout from '../components/layouts/Authlayout.vue';
+
 import Registration from '../pages/authentication/views/Registration.vue';
 
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'home',
-    component: Authlayout,
+    component: () => import('../components/layouts/Authlayout.vue'),
   },
   {
     path: '/registration',
