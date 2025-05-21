@@ -16,6 +16,7 @@ export default function useModal(): ModalComposable {
   return {
     showModal,
     modalType,
+    // functions oe methods
     toggleModal,
     setModalType,
   };
